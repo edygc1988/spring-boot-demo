@@ -14,7 +14,7 @@ public class DemoRestController {
      */
     @GetMapping("/rest/demo")
     public String demoReply() {
-        return (new StringBuilder().append("Hi there")).toString();
+        return "Hi there";
     }
 
     @GetMapping("/rest/hello")
